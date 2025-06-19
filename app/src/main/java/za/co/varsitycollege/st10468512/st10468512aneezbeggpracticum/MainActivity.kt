@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat.finishAffinity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
@@ -36,13 +37,13 @@ class MainActivity : AppCompatActivity() {
             val AddToPlaylist = findViewById<Button>(R.id.playlistButton)
 
 
-            //Creating the exit button so that once its clicked the program will close
+            //Making the exit button so that once its clicked the program will close
             ExitButton.setOnClickListener {
                 finishAffinity()
             }
 
 
-            //Creating the command whaat will happen once the  button is clicked
+            //Making the command what will happen once the  button is clicked
             AddToPlaylist.setOnClickListener {
 
                 //Showing the dialog in order to get the song information
@@ -51,10 +52,10 @@ class MainActivity : AppCompatActivity() {
 
             }
 
-            //Creating the command of what will happe once the next page button is clicked
+            //Making the command of what will happen once the next page button is clicked
             NextPage.setOnClickListener {
 
-                //Using intent to pass the user to the next page
+                //Using intent to take the user to the next page
                 val intent = Intent(this, Details_Screen::class.java)
 
                 //Using intent to pass the information stored in the arrays to the next screen so that it can be accessed on the next screen
@@ -69,7 +70,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        //declaring a private function that will be used
+        //setting up a private function which will be used
         private fun AddSongs() {
             val dialogView = LayoutInflater.from(this).inflate(R.layout.dialog_list, null)
 
@@ -80,7 +81,7 @@ class MainActivity : AppCompatActivity() {
             val CommentsInput = dialogView.findViewById<EditText>(R.id.editTextComments)
 
 
-            //Creating and showing the dialog box
+            //Developing and showing the dialog box
             val dialog = AlertDialog.Builder(this)
                 .setTitle("Add Song Name")
                 .setView(dialogView)
@@ -109,7 +110,7 @@ class MainActivity : AppCompatActivity() {
                             .show()
                     }
                 }
-                //creating the cancel button on the dialog
+                //Made a cancel button on the dialog
                 .setNegativeButton("Cancel", null)
                 .show()
                 .create()
@@ -117,3 +118,4 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
+
