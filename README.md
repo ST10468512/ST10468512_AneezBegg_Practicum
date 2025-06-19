@@ -1,9 +1,9 @@
 # ST10468512 Aneez Begg
-##  Imad Exam
+##  IMAD Exam
 ## Purpose
 The purpose of this app is to store songs and allow users to create and manage their playlist. It should also allow the users to rate the music and give their opinion on the songs
 ## How does it work
-.on the first page of the app the app contains the displayed buttons that being add to playsit,next page and exit.
+.on the first page of the app the it shows the buttons that being add to playsit,next page and exit button .
 
 .If the user wants to store more music on the app then they must click on add to playlist.
 
