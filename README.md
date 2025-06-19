@@ -48,13 +48,20 @@ Exit Button - Allows the user to close the app once they are done with the app.
 
 ![Screenshot 2025-06-19 211958](https://github.com/user-attachments/assets/ed778da2-6ccc-4988-a97b-3a82ee558d44)
 
-## last page
+## Detailed View Screen
 
 ![Screenshot 2025-06-19 211803](https://github.com/user-attachments/assets/38653f42-3384-4bd3-9828-579f8d385c4b)
 
 ## if theirs no average
 
 ![Screenshot 2025-06-19 214454](https://github.com/user-attachments/assets/c3e1ed92-5146-49cf-add2-f62b71e7719c)
+
+## Code for MainActivity
+
+![Screenshot 2025-06-19 212131](https://github.com/user-attachments/assets/107aadc3-2b50-4a9e-a581-891cc9cffca3)
+![Screenshot 2025-06-19 212215](https://github.com/user-attachments/assets/632a7f3e-2d74-4022-aaf1-fb7205ae33d9)
+
+
 
 
 
