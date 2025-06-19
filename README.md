@@ -27,3 +27,15 @@ The purpose of this app is to store songs and allow users to create and manage t
  . When you have found the folder Select on it and click open
 
  .The files will then open Andriod Studios
+ ## Features
+add to playlist Button - this lets user save songs to there collection so that it can be easy to find and play it later   
+
+next button - takes the user to the main screen of the app.
+
+Average button - this lets the user see how well or how bad the song did as a overall
+
+Display list - this shows all the songs or playlist availabe for the user to view and select.
+
+Home button - takes the user back to the first page of the app.
+
+Exit Button - Allows the user to close the app once they are done with the app.
