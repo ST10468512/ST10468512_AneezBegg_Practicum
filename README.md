@@ -39,3 +39,6 @@ Display list - this shows all the songs or playlist availabe for the user to vie
 Home button - takes the user back to the first page of the app.
 
 Exit Button - Allows the user to close the app once they are done with the app.
+
+![Screenshot 2025-06-19 211524](https://github.com/user-attachments/assets/f41cb987-ff69-4e4b-b787-fb2a051b6552)
+
