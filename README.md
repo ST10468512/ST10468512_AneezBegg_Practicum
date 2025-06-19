@@ -1,7 +1,7 @@
 # ST10468512 Aneez Begg
 ##  IMAD Exam
 ## Purpose
-The purpose of this app is to store songs and allow users to create and manage their playlist. It should also allow the users to rate the music and give their opinion on the songs
+The purpose of this app is to store songs and allow users to create and manage their playlist. It should also allow the users to rate the music and give their opinion on the songs and see how well the song did overall
 ## How does it work
 .on the first page of the app the it shows the buttons that being add to playsit,next page and exit button .
 
@@ -60,6 +60,14 @@ Exit Button - Allows the user to close the app once they are done with the app.
 
 ![Screenshot 2025-06-19 212131](https://github.com/user-attachments/assets/107aadc3-2b50-4a9e-a581-891cc9cffca3)
 ![Screenshot 2025-06-19 212215](https://github.com/user-attachments/assets/632a7f3e-2d74-4022-aaf1-fb7205ae33d9)
+
+## code for Detailed View Screen
+
+![Screenshot 2025-06-19 212258](https://github.com/user-attachments/assets/4158bd09-22a7-4f85-ab02-b3d1eea0c064)
+![Screenshot 2025-06-19 212339](https://github.com/user-attachments/assets/5185b70a-f552-4a53-8998-7d76784b5b5d)
+![Screenshot 2025-06-19 212414](https://github.com/user-attachments/assets/ad6d764b-7616-4545-8d6e-9e955a2c0c7d)
+
+
 
 
 
