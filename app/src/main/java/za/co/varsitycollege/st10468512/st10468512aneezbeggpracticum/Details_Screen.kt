@@ -2,6 +2,8 @@ package za.co.varsitycollege.st10468512.st10468512aneezbeggpracticum
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -14,11 +16,11 @@ class Details_Screen : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_details_screen)
         // Getting the views from the layout
-        val home=findViewById<Button>(R.id.btnHome)
-        val Average=findViewById<Button>(R.id.btnAverage)
-        val Display=findViewById<Button>(R.id.btnDisplay)
-        val DisplayText=findViewById<TextView>(R.id.DisplayText)
-        val averageText=findViewById<TextView>(R.id.AverageText)
+        val home=findViewById<Button>(R.id.homeButton)
+        val Average=findViewById<Button>(R.id.AverageButton)
+        val Display=findViewById<Button>(R.id.DisplayButton)
+        val DisplayText=findViewById<TextView>(R.id.Display)
+        val averageText=findViewById<TextView>(R.id.averageList)
 
 
         //Retirving the data that was passed through from the main page
@@ -88,9 +90,6 @@ class Details_Screen : AppCompatActivity() {
             else{ 0 }
             averageText.text="Average rating is : %.2f".format(average)
 
-        }
-    }
-}
         }
     }
 }
